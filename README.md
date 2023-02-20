@@ -7,6 +7,8 @@
 # KickWeb - Spring 2023
 
 The wiki includes resources & course notes for students attending KickWeb Module. <br/>
+https://github.com/digitalideation/KickWeb2023/wiki <br/><br/>
+
 Instructor: Hanna Züllig<br/>
 Term: Spring 2023, HSLU<br/>
 
