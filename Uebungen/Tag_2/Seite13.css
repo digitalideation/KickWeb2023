@@ -1,0 +1,159 @@
+body{
+    background-color: #e1e7e4;
+    }
+h1{
+    color: black;
+    font-family: mandrel-normal, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 7vw;
+    text-align: center;
+    top: 300px;
+    letter-spacing: 0.1em;
+    }
+p{
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.6rem;
+    text-align: center;
+    top: 10px;
+    /*background-color: white;*/
+    }
+/*span{
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-style: normal;
+    letter-spacing: 0.05em;
+    
+
+    
+    margin: 23%;
+    
+    
+    }*/
+
+.bgwhite {
+    background-color: white;
+    text-align: left;
+    position: absolute;
+    top:85%;
+    left:13%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-style: normal;
+    
+    }
+
+hr {
+    width: 100%;
+    height:3px;
+    border-width:0px;
+    background-color:white;
+    }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+        
+    margin: 50px;
+    }
+
+.centered {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+.bleft{
+    top: 116%;
+    left:13%;
+    padding-top: 5px;
+    padding-bottom:5%;
+    position: absolute;
+    text-align: left;
+    color: black;
+
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-style: normal;
+    }
+.site{
+    padding-top: 0px;
+    padding-left: 550px;
+    padding-bottom:5%;
+    position: absolute;
+    text-align: left;
+    line-height: 2.5;
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-style: normal;
+
+    
+    
+}
+hr.new1 {
+    padding-right: 100%;
+  }
+
+  .vl {
+    border-left: 6px solid white;
+    height: 287px;
+    position: absolute;
+    left: 550px;
+    margin-left: -3px;
+    top: 1010px;
+  }
+
+.toptextleft{
+    padding-top: 10px;
+    position: absolute;
+    left: 0px;
+    padding-left: 10%;
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-style: normal;
+  }
+  .toptextright{
+    padding-top: 10px;
+    position: absolute;
+    right: 0px;
+    padding-right: 10%;
+    text-align: right;
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-style: normal;
+  }
+  .untertitel{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    top: 10px;
+
+    padding-bottom: 10px;
+  }
+
+  .ausz{
+    font-family: mandrel-normal, sans-serif;
+  }

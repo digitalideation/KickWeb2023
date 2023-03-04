@@ -1,0 +1,99 @@
+body{
+    /*background-color: black;*/
+    background-image: url("Cosmos_November_2015_AU_BGI.jpg");
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+  a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    
+  }
+li{ 
+display: inline-block;
+text-align: center;
+font-family: proxima-nova, sans-serif;
+padding-top: 5px;
+padding-bottom: 20px;
+list-style-type: none;
+padding-inline-start: 0px;
+font-size: 15px;
+
+        
+}
+
+ul{
+display:flex;
+              
+}
+hr {
+    width: 90%;
+    height:2px;
+    border-width:0;
+    background-color:white;
+  }
+
+  h1{
+    color: white;
+    font-family: mandrel-normal, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 0px;
+    letter-spacing: 0.1em;
+    }
+
+    .toptextleft{
+        padding-top: 10px;
+        position: absolute;
+        left: 0px;
+        padding-left: 5%;
+        color: white;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        font-style: normal;
+      }
+      .toptextright{
+        padding-top: 10px;
+        position: absolute;
+        right: 0px;
+        padding-right: 5%;
+        text-align: right;
+        color: white;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        font-style: normal;
+      }
+      .bgblack{
+        background-color: black;
+        text-align: left;
+        position: absolute;
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+
+        margin-left: 50%;
+        margin-top: 200px;
+    
+        color: white;
+        font-family: proxima-nova, sans-serif;
+        
+        font-size: 15px;
+        font-style: normal;
+        }

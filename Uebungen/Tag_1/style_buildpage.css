@@ -1,0 +1,36 @@
+
+body{
+    background-color: RGB(170,216,225);
+}
+
+h1{
+color: white;
+font-family: mandrel-normal, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 5vw;
+text-align: center;
+top: 300px;
+padding-top: 150px;
+padding-bottom: 80px;;
+letter-spacing: 0.1em;
+}
+
+h2{
+color: white;
+font-family: proxima-nova, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 15px;
+top: 10px;
+}
+
+
+p{
+font-size: 20px;
+color: white;
+font-family: plantin, sans-serif;
+font-weight: 300;
+font-style: normal;
+text-align: center;
+}

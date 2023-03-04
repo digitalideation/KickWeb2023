@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "FT88";
+    src: url("FT88-Italic.woff2") format("woff2");
+}
+body{
+    background-color: black;
+}
+
+h1{
+    color: darkred;
+    position: fixed;
+    top: 10px;
+    font-size: 14vw;
+    font-family: FT88;
+    font-style: italic;
+}
+
+p{
+    color: white;
+    position: fixed;
+    top: 90%;
+    font-size: rem;
+    font-family: Helvetica;
+    font-style: normal;
+}
+
+
+
+
+ 

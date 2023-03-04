@@ -1,0 +1,135 @@
+.titel{
+    color: black;
+    font-family: mandrel-normal, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 150px;
+    text-align: center;
+    
+    letter-spacing: 0.1em;
+    top: 0px;
+    /*padding-top: 20px;*/
+}
+
+.smalltext{
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    top: 10px;
+
+    padding-bottom: 10px;;
+}
+
+.columntext{
+    text-align: left;
+    top: 10px;
+    color: skyblue;
+
+    margin-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 10px;;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 88px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.bigpic{
+   /* padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 50px; */
+    text-align: center;
+    margin: 60px;
+}
+
+.smallpic{
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+
+hr{
+    height: 2.5px;
+    background-color: black;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bgwhite {
+    margin-top: 55%;
+    margin-left: 68%;
+
+    background-color: white;
+    text-align: left;
+    position: fixed;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+
+    color: black;
+    font-family: mandrel-normal, sans-serif;
+    
+    font-size: 15px;
+    font-style: normal;
+    }
+
+    .untertitel{
+    color: skyblue;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    top: 10px;
+
+    padding-bottom: 10px;
+    }
+    .toptextleft{
+        padding-top: 10px;
+        position: absolute;
+        left: 0px;
+        padding-left: 10%;
+        color: black;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        font-style: normal;
+      }
+      .toptextright{
+        padding-top: 10px;
+        position: absolute;
+        right: 0px;
+        padding-right: 10%;
+        text-align: right;
+        color: black;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        font-style: normal;
+      }
