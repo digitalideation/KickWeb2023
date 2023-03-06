@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "pilowlava";
+    src: url("/fonts/Pilowlava-Regular.woff") format("woff");
+
+}
+
+.bg img{
+     height: 73vw;
+     position: absolute;
+     top:0;
+     margin-top: -9vw;
+     margin-left: 19.8vw;
+}
+
+.title{
+    
+    background-color:#474747;
+    height: 17vw;
+    width: 25.5vw;
+   
+    margin-left: 27vw;
+    margin-bottom: 4vw;
+   
+}
+
+h1{
+    text-align: left;
+    line-height: 0.9;
+    font-family: "vollkorn", serif;
+    font-weight: 600;
+    font-style: normal;
+    color:white;
+    font-size: 4.5vw;
+    margin: 1vw;
+    margin-bottom: 2.5vw;
+}
+
+
+.title p{
+    text-align: left;
+    font-family: Courier;
+    font-style: thin;
+    color:white;
+    font-size: 1.7vw;
+    margin: 1vw;
+}
+
+.feature p{
+    font-size: 1.7vw;
+    text-align: left;
+    font-family: "pilowlava";
+    color:white;
+    background-color: grey;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    height: 15.5vw;
+    width: 2.5vw;
+    margin-top: 18vw;
+    margin-left: 21vw;
+    border-radius: 50px;
+}
+
+ul{
+    display: flex;
+    margin-left: 27vw;
+    padding:0
+}
+
+li{
+    list-style-type: none;
+    text-align: left;
+    font-family: Courier;
+    color:	#474747;
+    font-size: 1.2vw;
+    padding-right: 3vw;
+    margin-top:-35.5vw;
+    
+}

@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+}
+
+ul{
+  
+    
+    width: 80%;
+    
+}
+
+
+.titel li{
+    color: white;
+    font-family: "Tipemite";
+    letter-spacing: -0.5vw;
+    font-size: 4.3vw;
+    margin-right: 4vw;
+    margin-top: 10vw;
+    list-style-type: none;
+    text-align: left;
+    
+}
+.untertitel li{
+    color: white;
+    font-family: "Tipemite";
+    font-size: 3w;
+    margin-right: 4vw;
+    margin-top: -10vw;
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+.s ul{
+    margin-top: 7vw;
+}
+
+.sprint li{
+    
+    font-family: "RubikBubbles-Regular";
+    font-size: 4vw;
+    letter-spacing: 0.5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+    
+    list-style-type: none;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+.color1 a:link, a:visited {
+    background-image: linear-gradient( #ff262e, #ff262e);
+    
+    color: black;
+    padding: 1vw 24vw;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.color2 a:link, a:visited {
+    background-image: linear-gradient(#ff262e, #ff31b1);
+    color: black;
+    padding: 1vw 24vw;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.color3 a:link, a:visited {
+    background-image: linear-gradient(#ff31b1, #ff31b1);
+    color: black;
+    padding: 1vw 24vw;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+.color1 a:hover{
+    background-image: linear-gradient(#ffffff, #ffffff);
+}
+.color2 a:hover{
+    background-image: linear-gradient(#ffffff, #ffffff);
+}
+.color3 a:hover{
+    background-image: linear-gradient(#ffffff, #ffffff);
+}
