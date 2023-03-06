@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "LOGO";
+    src: url("/Font/Incised901BT.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "SERIF";
+    src: url("/Navigation/Font/American_Typewriter_Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "LESETITEL";
+    src: url("/Navigation/Font/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "LESETITEL2";
+    src: url("/Navigation/Font/Inter-Regular.woff2") format("woff2");
+}
+
+body{
+  background-color: yellow;
+}
+
+#object1 {
+    position: absolute
+    width: 700px;
+    height: -100px;
+    object-fit: none;
+    rotate: -5deg;
+}
+
+#object2 {
+    position: absolute
+    width: 700px;
+    height: 200px;
+    object-fit: none;
+    rotate: 15deg;
+}
+
+
+
+
+li{
+padding: 30px;
+list-style-type: none;
+text-decoration: none;
+text-decoration-line: none;
+text-decoration-color: none;
+text-decoration-style: none;
+}
+
+url{
+    display: flex;
+}
+
+
+h1{
+    color: white;
+    text-shadow: -20px 10px #ff19b3,
+    -3px -3px 0 #ff19b3,  
+     3px -3px 0 #ff19b3,
+     -3px 3px 0 #ff19b3,
+      3px 3px 0 #ff19b3;
+    font-family: "LOGO";
+    font-size: 130px;
+    margin-top: 20px;
+    padding-left: 120px;
+    margin-bottom: 1px;
+ 
+
+}
+
+h2{
+    color:white;
+    text-shadow: -30px 20px #ff19b3,
+    -3px -3px 0 #ff19b3,  
+     3px -3px 0 #ff19b3,
+     -3px 3px 0 #ff19b3,
+      3px 3px 0 #ff19b3;
+    font-family: "LOGO";
+    font-size: 220px;
+    padding-left: 80px;
+    margin-top: -55px;
+
+}
+
+h3{
+    color: white;
+    font-family: "SERIF";
+    font-size: 40px;
+    text-decoration: none;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    margin-top: -200px;
+    rotate: -8deg;
+}
+
+
+  h4{
+    color: black;
+    font-family: "LESETITEL";
+    font-size: 40px;
+
+   }
+
+
+
+
+   h5{
+    color: black;
+    font-family: "LESETITEL";
+    font-size: 12px;
+    line-height:1.3
+
+   }
+
+   h6{
+    color: black;
+    font-family: "LESETITEL2";
+    font-size: 12px;
+    line-height:1.3;
+}
+
+
+
+
+
+

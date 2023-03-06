@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "LOGO";
+    src: url("/Navigation/Font/Incised901BT.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "SERIF";
+    src: url("/Navigation/Font/American_Typewriter_Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "LESETITEL";
+    src: url("/Navigation/Font/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "LESETITEL2";
+    src: url("/Navigation/Font/Inter-Regular.woff2") format("woff2");
+}
+
+
+
+#object1 {
+    position: absolute
+    width: 700px;
+    height: -100px;
+    object-fit: none;
+    rotate: -5deg;
+}
+
+#object2 {
+    position: absolute
+    width: 700px;
+    height: 200px;
+    object-fit: none;
+    rotate: 15deg;
+}
+
+
+body {  background-image: url('/Bilder/Hintergrund2.jpg');
+        background-repeat: no-repeat;
+    }
+
+
+
+li{
+padding: 30px;
+list-style-type: none;
+text-decoration: none;
+text-decoration-line: none;
+text-decoration-color: none;
+text-decoration-style: none;
+}
+
+url{
+    display: flex;
+}
+
+
+h1{
+    color: white;
+    text-shadow: -20px 10px #ff19b3,
+    -3px -3px 0 #ff19b3,  
+     3px -3px 0 #ff19b3,
+     -3px 3px 0 #ff19b3,
+      3px 3px 0 #ff19b3;
+    font-family: "LOGO";
+    font-size: 130px;
+    margin-top: 20px;
+    padding-left: 120px;
+    margin-bottom: 1px;
+ 
+
+}
+
+h2{
+    color:white;
+    text-shadow: -30px 20px #ff19b3,
+    -3px -3px 0 #ff19b3,  
+     3px -3px 0 #ff19b3,
+     -3px 3px 0 #ff19b3,
+      3px 3px 0 #ff19b3;
+    font-family: "LOGO";
+    font-size: 220px;
+    padding-left: 80px;
+    margin-top: -55px;
+
+}
+
+h3{
+    color: white;
+    font-family: "SERIF";
+    font-size: 40px;
+    text-decoration: none;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    margin-top: -200px;
+    rotate: -8deg;
+}
+
+
+  h4{
+    color: black;
+    font-family: "LESETITEL";
+    font-size: 40px;
+
+   }
+
+
+
+
+   h5{
+    color: black;
+    font-family: "LESETITEL";
+    font-size: 12px;
+    line-height:1.3
+
+   }
+
+   h6{
+    color: black;
+    font-family: "LESETITEL2";
+    font-size: 12px;
+    line-height:1.3;
+}
+
+
+
+
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.column {
+    flex-basis: 20%;
+    padding: 10px;
+    box-sizing: border-box;    position: relative;
+    background-color: #3399cc;
+    border: 2px solid black;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 20px;
+    column-count: 2;
+    column-gap: 20px;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .column2 {
+    flex-basis: 20%;
+    padding: 10px;
+    box-sizing: border-box;    position: relative;
+    background-color: transparent;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 20px;
+    column-count: 1;
+    column-gap: 20px;
+    
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .column3 {
+    flex-basis: 30%;
+    padding: 10px;
+    box-sizing: border-box;    position: relative;
+    background-color: #c0c0c0;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-bottom: 2600px;
+    margin-right: 1px;
+    margin-left: 30px;
+    width: 500px;
+    column-count: 1;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .column4 {
+    flex-basis: 30%;
+    padding: 10px;
+    box-sizing: border-box;    position: relative;
+    background-color: #ff19b3;
+    border: 2px solid black;
+    margin-top: 1000px;
+    margin-bottom: 2000px;
+    margin-right: -10px;
+    margin-left: -275px;
+    width: 500px;
+    column-count: 1;
+    column-gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+
+  .row10 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column10 {
+    flex-basis: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 350px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 50px;
+    
+  }
