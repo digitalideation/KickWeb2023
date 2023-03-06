@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Oswald:wght@200;300&family=Roboto:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Marcellus&family=Oswald:wght@200;300&family=Roboto:wght@300&display=swap');
+  @font-face {
+    font-family: 'Emberly-Medium-Condensed';
+    src:url('Emberly-Medium-Condensed.ttf.woff') format('woff'),
+        url('Emberly-Medium-Condensed.ttf.svg#Emberly-Medium-Condensed') format('svg'),
+        url('Emberly-Medium-Condensed.ttf.eot'),
+        url('Emberly-Medium-Condensed.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Marcellus&family=Monsieur+La+Doulaise&family=Oswald:wght@200;300&family=Pinyon+Script&family=Roboto:wght@300&display=swap');
+
+    .container {
+    width: 494px;
+    height: 714px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.background {
+    position: absolute;
+    margin-bottom: 61px;
+    margin-left: 29px;
+}
+
+.middle {
+    position: absolute;
+    width: 174px;
+    height: 301px;
+    border: 1px solid black;
+    margin-left: 155px;
+    margin-top: 121px;
+
+    text-align: center;
+}
+
+h {
+    font-size: 24px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(219 79 80);
+}
+
+p {
+    font-size: 8px;
+    font-family: 'Oswald', serif;
+    font-weight: 200px;
+    font-style: normal;
+    color: black;
+}
+.top{
+    font-size: 26px;
+    font-family: 'Emberly-Medium-Condensed';
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 36px;
+    letter-spacing: 1px;
+}
+.bottom{
+    position: absolute;
+    text-align: center;
+    margin-top: 445px;
+    margin-left: 170px;
+}

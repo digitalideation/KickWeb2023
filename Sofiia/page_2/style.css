@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Roboto:wght@300&display=swap');
+
+.container {
+    width: 490px;
+    height: 706px;
+    border: 1px solid black;
+
+    text-align: center;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+.photo {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 8px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 280px;
+}
+
+h1 {
+    font-size: 16px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: rgb(122 171 213);
+    letter-spacing: 2px;
+}
+
+.text_1 {
+    font-size: 12px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.text_2 {
+    font-size: 8px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.rectangle {
+    width: 36px;
+    height: 4px;
+    background-color: rgb(122 171 213);
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 227px;
+}
+
+.text_3 {
+    font-size: 8px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.bottom_text {
+    font-size: 12px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 15px;
+}

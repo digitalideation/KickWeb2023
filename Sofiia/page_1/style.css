@@ -1,0 +1,233 @@
+/* @font-face { 
+    font-family: "HappyTimes";
+    src: url("happy-times-NG_bold_master_web.ttf") format("ttf");
+}
+body {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color: darkorange;
+    font-family: HappyTimes;
+}
+
+#blauebox {
+    background-color: whitesmoke;
+    width: 50%;
+    border: 1px solid black;
+    font-size: 2vh;
+    font-family: HappyTimes;
+}
+
+.inhalt {
+    background-color: black;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    border: 1px solid whitesmoke;
+    font-size: 2vw;
+    color: whitesmoke;
+}
+
+p blau {
+    font-size: 2vw;
+}
+*/
+/*
+*{ font-family: "Jost";}
+@font-face {
+    font-family: "Karrik_Regular";
+    src: url("Karrik-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaCondensedMedium";
+    src: url("FuturaCondensedMedium.otf") format("otf");
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=Familjen+Grotesk:wght@600&family=Jost&family=Koulen&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&family=EB+Garamond&family=Familjen+Grotesk:wght@600&family=Jost:wght@400;500&family=Koulen&family=Roboto:wght@300&display=swap');
+
+.container {
+    width: 494px;
+    height: 714px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.right_top {
+    height: 268px;
+    width: 301px;
+    margin-left: 192px;
+    margin-bottom: 444px;
+    position: absolute;
+}
+
+.photo {
+    position: absolute;
+    margin-left: 26px;
+    margin-right: 25px;
+    margin-top: 29px;
+    margin-bottom: 24px;
+}
+
+.text_inside {
+    position: relative;
+}
+
+.right_bottom {
+    width: 301px;
+    height: 445px;
+    margin-top: 270px;
+    position: absolute;
+    margin-left: 192px;
+}
+
+.paragraph {
+    font-size: 32px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 73px;
+    margin-left: 26px;
+    margin-bottom: 57px;
+}
+
+.text_block {
+    font-size: 6px;
+    color: black;
+    font-family: "FuturaCondensedRegular";
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 73px;
+    margin-left: 26px;
+    width: 248px;
+    height: 115px;
+}
+
+.text_1 {
+    font-size: 8px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 28px;
+    margin-left: 26px;
+    margin-right: 26px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 7px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.adresse {
+    margin-left: 26px;
+    margin-top: 12px;
+    margin-right: 26px;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+}
+
+.erste {
+    font-size: 8px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.dot {
+    width: 2px;
+    height: 2px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.zweite {
+    font-size: 8px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.seite {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 8px;
+    margin-left: 204px;
+    margin-top: 35px;
+}
+.cross_1 {
+    width: 8px;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    margin-left: 184px;
+}
+.cross_2 {
+    width: 446px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    margin-bottom: 170px;
+    margin-left: 20px;
+}
+.text_inside {
+    font-size: 7px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    margin-top: 245px; 
+    margin-left: 26px;
+}
+.left_bottom {
+    height: 441px;
+    width: 192px;
+    margin-top: 270px;
+}
+.side_text {
+    font-size: 8px;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 6px;
+    letter-spacing: 1px;
+    transform: rotate(90deg);
+}
+.photo_{
+    width: 140px;
+    height: 144px;
+    background-color: black;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 28px;
+}
+.logo {
+    position: absolute;
+    margin-top: 317px;
+    margin-left: 132px;
+
+}
