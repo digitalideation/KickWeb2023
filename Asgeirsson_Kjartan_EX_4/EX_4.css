@@ -1,0 +1,260 @@
+body{
+    background-color:rgb(244, 244, 244);
+}
+
+.flex-header{
+    position: relative;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin: auto;
+    text-align: left;
+   
+    padding: 10px;
+    font-family: 'Open Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-header > h2{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+    font-size:  1.5rem;
+    padding: -5px;
+    
+}
+.flex-header > hr{
+    display: block;
+    margin-top: 0.01rem;
+    margin-bottom: 0.em;
+    margin-left: 1%;
+    margin-right: 2%;
+    border-style:solid;
+    border-width: 2px;
+    color: rgb(66, 66, 66);
+}
+
+.flex-header > .link-bar{
+    flex:20%;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    color: rgb(66, 66, 66);
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+   
+}
+.flex-header > .link-bar > a:link, a:visited{ 
+    color: rgb(66, 66, 66);
+    margin-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+.flex-header > .link-bar > a:hover, a:active{ 
+    color: rgb(105, 105, 105);
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.container{
+    position: relative;
+    color:black;
+    
+}
+.container > img{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution:unset;
+    padding-top: 20px;
+    width: 85%
+}
+.title{
+    position: absolute;
+    bottom: 0%;
+    left: 7%;
+    font-size: 1rem;
+    text-align: left;
+    background-color:rgb(243, 243, 243);
+    padding: 20px;
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title > strong{
+    font-size:3rem;
+}
+ul{
+    
+    background-color: rgb(243, 243, 243);
+    display:flex;
+    list-style: square outside none;
+    width:auto;
+    list-style-position:inherit;
+    /*margin-right: 50px;*/
+}
+li{
+    /*padding-left: 0px;*/
+    list-style-type: none; 
+    background-color:rgb(243, 243, 243);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    
+}
+
+@font-face{
+    font-family: "Karrik";
+    src: url("Karrik-Regular.woff2") format("woff2");
+}
+
+.flex-cards >.card > a:link, a:visited{ 
+    
+    
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.flex-cards > .card > a:hover, a:active{ 
+
+    
+    color: rgb(244, 244, 244);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+h2{
+    font-size:1.5rem;
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(244, 244, 244);
+    margin: 0.5rem;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.flex-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card{
+    padding: 3px;
+    background-color:rgba(94, 154, 186, 0.99);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(244, 244, 244);
+    font-size: 1rem;
+    text-align: left;
+    flex: 25%;
+    margin: 40px;
+   
+    
+}
+
+.card > p{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.card > img{
+    padding: 0px;
+    width: 100%;
+}
+
+
+
+.flex-cards > .card > hr { 
+    display: block;
+    margin-top: 0.001rem;
+    margin-bottom: 0rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style:solid;
+    border-width: 1.5px;
+    color: rgb(244, 244, 244);
+  } 
+
+
+.textblock-container{
+
+        position: relative;
+        color:black; 
+        left: 8%;
+        width: 80%;
+        
+}
+
+.textblock-container > p{
+    padding-top: 30px;
+    position: relative;
+    text-align: left;
+    font-size:1rem;
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(32, 32, 32);
+    margin: 0.5rem;
+    margin-top: 0px;
+    padding-top: 0px;
+}   
+.textblock-container > h3{
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color:rgba(94, 154, 186, 0.99);
+}
+
+.textblock-container > hr{
+    
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 20%;
+    border-style:solid;
+    border-width: 1.5px;
+    color: rgba(120, 179, 211, 0.99);
+}
+
+.textblock-container > aside{
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(244, 244, 244);
+    margin-top: 2rem;
+    position: relative;
+    float: right;
+    background-color: rgba(94, 154, 186, 0.99);
+    padding: 20px;
+    text-align: center;
+}
+.textblock-container > aside > hr{
+    margin-top: 0.22rem;
+    margin-bottom: 0.2rem;
+    width: 75%;
+    border-style:solid;
+    border-width: 1.25px;
+    color: rgb(244, 244, 244);
+}
+
+footer{
+    display: block;
+    position: relative;
+    left: 5%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: rgba(94, 154, 186, 0.99);
+    text-align: center;
+    color:rgb(244, 244, 244);
+    width: 90%;
+    margin-top: 20px;
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
