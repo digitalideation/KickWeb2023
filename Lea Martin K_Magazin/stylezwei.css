@@ -1,0 +1,485 @@
+body{
+    background-color:white;
+    background-image: "clementine.jpg";
+}
+
+img{
+    width:830px;
+    size-adjust: cover;
+}
+.inseason{
+    background-color:rgba(255, 255, 255, 0);
+    width:15%;
+    height:500px;
+    margin-left: -60px;
+    margin-top: -460px;
+
+}
+
+.one{
+    background-color:rgba(255, 255, 255, 0);
+    width:25%;
+    height:1200px;
+    margin-top: 270px;
+
+}
+
+.two{
+    background-color:white;
+    width:30%;
+    height:1200px;
+    margin-top: 80px;
+
+}
+
+.three{
+    background-color:white;
+    width:30%;
+    height:1200px;
+    margin-top: 40px;
+
+}
+
+.blue{
+    background-color:rgb(30, 27, 82);
+    width:45%;
+    height:1100px;
+    margin-left:40px;
+    margin-top:-300px;
+}
+
+.blueone{
+    background-color:rgb(30, 27, 82);
+    width:45%;
+    height:800px;
+
+}
+
+.bluetwo{
+    background-color:rgb(30, 27, 82);
+    width:45%;
+    height:800px;
+
+}
+
+.red{
+    background-color:rgb(184, 14, 45);
+    width:45%;
+    height:1100px;
+    margin-top: -300px;
+
+}
+
+.redone{
+    background-color:rgb(184, 14, 45);
+    width:45%;
+    height:800px;
+
+}
+
+.redtwo{
+    background-color:rgb(184, 14, 45);
+    width:45%;
+    height:800px;
+
+}
+.page {
+    background-color: white;
+    margin-top: 80px;
+
+}
+
+.name {
+    background-color: white;
+    margin-top: 80px;
+    margin-left: -400px;
+
+}
+
+.photos {
+    margin-top: 80px;
+}
+
+
+
+h1{
+    color:black;
+    line-height:48px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:150px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 26.4px; 
+
+}
+h2{
+    color:black;
+    top:70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:100px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:700; 
+    line-height: 26.4px; 
+}
+
+p{
+    color:black;
+    top:70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:700; 
+    line-height: 26.4px; 
+}
+
+.Titel h1{
+    color:rgb(255, 34, 0);
+    position:relative;
+    left:830px;
+    top:60px;
+    line-height:48px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:160px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 26.4px; 
+}
+
+.Titel h2{
+    color:black;
+    position:relative;
+    left:1030px;
+    top:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:80px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:700; 
+    line-height: 26.4px; 
+
+}
+
+.Titel p{
+    color:black;
+    position:relative;
+    left:1035px;
+    top:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:0; 
+    line-height: 26.4px; 
+}
+
+.inseason h2{
+    color:black;
+    top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:80px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:10;
+    line-height: 26.4px; 
+    writing-mode: vertical-rl;
+    text-orientation: revert;
+    transform: rotate(180deg);
+    margin-top: 10px;
+    text-align:start
+}
+
+.one h2{
+    color:black;
+    position:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:70px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:400; 
+    line-height: 60px; 
+    margin-bottom: 50px;
+}
+
+.one p{
+    color:rgb(196, 42, 18);
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:33px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+    margin-top: -30px;
+}
+
+.two p{
+    color:black;
+    position:center;
+    hyphens: auto;
+    text-align:justify;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:37px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+    margin-top: 0px;
+}
+
+.three p{
+    color:black;
+    position:center;
+    hyphens: auto;
+    text-align:justify;
+    font-family:'EB Garamond';
+    font-size:37px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+
+}
+
+.three h2{
+    color:black;
+    position:left;
+    left:340px;
+    top:28px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:37px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 26.4px; 
+    margin-top: 30px;
+    margin-bottom: -20px;
+
+}
+
+.blue h2{
+    color:white;
+    position:center;
+    text-align:left;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 98px;
+    margin: 20px; 
+    margin-top: 70px;
+}
+
+.blueone h2{
+    color:white;
+    position:center;
+    text-align:left;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:32px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-top: 10px;
+}
+
+.blueone p{
+    color:white;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 55px; 
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.bluetwo h2{
+    color:white;
+    position:center;
+    text-align:left;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:32px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.bluetwo p{
+    color:white;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 50px; 
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.red h2{
+    color:white;
+    position:center;
+    text-align:left;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 98px;
+    margin: 20px; 
+    margin-top: 70px;
+}
+
+.redone h2{
+    color:white;
+    position:center;
+    text-align:left;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:32px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-top: 5px;
+}
+
+.redone p{
+    color:white;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 50px; 
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.redtwo h2{
+    color:white;
+    position:center;
+    text-align:left;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:32px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.redtwo p{
+    color:white;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 50px; 
+    margin: 20px;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.page p{
+    color:black;
+    position:left;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+.name p{
+    color:black;
+    position:left;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+.photos p{
+    color:black;
+    position:left;
+    text-align:right;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:27px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-start
+  }
+
+.bluecontainer {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-start
+  }
+
+.redcontainer {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-start
+  }
+
+
+

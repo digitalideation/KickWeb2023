@@ -1,0 +1,433 @@
+body{
+    background-color:white;
+
+}
+
+.menu{
+    background-color:white;
+    width:45%;
+    height:1200px;
+    margin-top: -370px;
+
+}
+
+.white{
+    background-color:white;
+    width:45%;
+    height:1200px;
+}
+
+.red{
+    background-color:#bc1318;
+    width:45%;
+    height:1200px;
+}
+
+.purple {
+    background-color:#6f2f5d;
+    width:35%;
+    height:1100px;
+}
+
+.greenlight {
+    background-color:#b3c666;
+    width:45%;
+    height:700px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.greendark {
+    background-color:#5b9a4f;
+    width:45%;
+    height:700px;
+    margin-top: 30px;
+    margin-left:-70px;
+
+}
+
+.purpledark {
+    background-color:#3e1544;
+    width:35%;
+    height:830px;
+    margin-top: -100px;
+}
+
+.page {
+    background-color: white;
+    margin-top: 80px;
+
+}
+
+.name {
+    background-color: white;
+    margin-top: 80px;
+    margin-left: -400px;
+
+}
+
+.space {
+    margin-top: 100px;
+}
+
+.menu h2{
+
+    color:black;
+    top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:140px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:10;
+    line-height: 26.4px; 
+    writing-mode: vertical-rl;
+    text-orientation: revert;
+    transform: rotate(180deg);
+    margin-top: 10px;
+    text-align:start
+}
+
+h1{
+    color:black;
+    position:relative;
+    left:330px;
+    top:30px;
+    line-height:48px;
+    font-family:'EB Garamond';
+    font-size:200px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 26.4px; 
+
+
+}
+h2{
+    color:black;
+    top:70px;
+    font-family:'EB Garamond';
+    font-size:100px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:700; 
+    line-height: 26.4px; 
+}
+
+.Titel h2{
+    color:black;
+    position:relative;
+    left:340px;
+    top:28px;
+    font-family:'EB Garamond';
+    font-size:120px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:400; 
+    line-height: 26.4px; 
+    margin-bottom: 120px;
+}
+
+.white p{
+
+    color:black;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:33px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+    margin-top: 0px;
+
+}
+
+.red h2{
+    color:white;
+    position:center;
+    text-align:center;
+    top:300px;
+    font-family:'EB Garamond';
+    font-size:100px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:80; 
+    line-height: 98px;
+    margin: 20px; 
+    margin-top: 70px;
+}
+
+.red h3{
+
+    color:white;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:33px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+    margin: 80px;
+    margin-top: 30px;
+
+}
+
+.red p{
+
+    color:white;
+    position:center;
+    text-align:center;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:33px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+    margin: 80px;
+    margin-top: 30px;
+
+}
+.purple h2{
+    color:white;
+    position:center;
+    text-align:center;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-top: 50px;
+
+}
+
+.purple h3{
+    color:white;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+    margin: 40px;
+    margin-top: 30px;
+
+}
+
+.purple p{
+
+    color:white;
+    position:center;
+    text-align:center;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+    margin: 40px;
+    margin-top: 30px;
+
+}
+
+.greenlight h2{
+    color:black;
+    position:center;
+    text-align:center;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-top: 50px;
+
+}
+
+.greenlight h3{
+    color:black;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:33px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight: 600;
+    line-height: 40px; 
+    margin: 30px;
+    margin-top:37px;
+
+}
+
+.greenlight p{
+
+    color:black;
+    position:center;
+    text-align:center;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:34px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+    margin: 40px;
+    margin-top: 30px;
+
+}
+
+.greendark h2{
+    color:black;
+    position:center;
+    text-align:center;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-top: 50px;
+
+}
+
+.greendark h3{
+    color:black;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:33px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:600; 
+    line-height: 40px; 
+    margin: 40px;
+    margin-top: 30px;
+
+}
+
+.greendark p{
+
+    color:black;
+    position:center;
+    text-align:center;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:34px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+    margin: 40px;
+    margin-top: 30px;
+
+}
+
+.purpledark h2{
+    color:white;
+    position:center;
+    text-align:center;
+    top:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px;
+    margin: 20px; 
+    margin-top: 50px;
+
+}
+
+.purpledark h3{
+    color:white;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 40px; 
+    margin: 40px;
+    margin-top: 30px;
+
+}
+
+.purpledark p{
+
+    color:white;
+    position:center;
+    text-align:center;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+    margin: 40px;
+    margin-top: 30px;
+
+}
+
+.page p{
+    color:black;
+    position:left;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+.name p{
+    color:black;
+    position:left;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-start
+  }
+
+
+
+
+
+
+
+
+

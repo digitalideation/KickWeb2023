@@ -1,0 +1,271 @@
+body{
+    background-image: url("weinhintergrund.png");
+    background-color: #cccccc00;
+}
+
+
+.enjoying{
+    background-color:rgba(255, 255, 255, 0);
+    width:45%;
+    height:700px;
+    margin-top: -370px;
+    margin-left: -90px;
+
+}
+
+.first{
+    background-color:rgba(255, 255, 255, 0);
+    width:45%;
+    height:400px;
+    margin-left: -100px;
+    margin-top: -40px;
+}
+
+.second{
+    background-color:#bc131900;
+    width:45%;
+    height:400px;
+    margin-left: -100px;
+    margin-top: -40px;
+}
+
+.transparent{
+    background-color: #ffffff00;
+    height: 1800px;
+}
+
+.third {
+    background-color:#b3c66600;
+    width:45%;
+    height:600px;
+    margin-left: 90px;
+}
+
+.transparenttwo{
+    background-color: hsla(0, 86%, 52%, 0);
+    height: 600px;
+}
+
+.page {
+    background-color: white;
+    margin-top: 80px;
+
+}
+
+.name {
+    background-color: white;
+    margin-top: 80px;
+    margin-left: -400px;
+
+}
+
+.photos {
+    margin-top: 80px;
+}
+
+.enjoying h2{
+
+    color:rgb(142, 20, 20);
+    top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:140px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:10;
+    line-height: 26.4px; 
+    writing-mode: vertical-rl;
+    text-orientation: revert;
+    transform: rotate(180deg);
+    margin-top: -180px;
+    text-align:start
+}
+
+h1{
+    color:black;
+    position:relative;
+    top: 50px;
+    left: 70px;
+    text-align:center;
+    line-height:48px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:170px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 180px; 
+
+
+
+}
+h2{
+    color:black;
+    top:70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:700; 
+    line-height: 26.4px; 
+}
+
+.Titel h2{
+    color:black;
+    position:relative;
+    left: 10px;
+    text-align:center;
+    line-height:48px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:160px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 180px; 
+    margin-top: -150px;
+
+}
+
+.Titel h3{
+    color:black;
+    position:relative;
+    left:1155px;
+    top:50px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:400; 
+    line-height: 26.4px; 
+    margin-bottom: 120px;
+}
+
+.first p{
+
+    color:black;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:34px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 42px; 
+    margin-top: 0px;
+
+}
+
+.second p{
+
+    color:black;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:34px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 42px; 
+    margin-top: 0px;
+
+}
+
+.third h2{
+    color:rgb(172, 149, 172);
+    position:center;
+    text-align:left;
+    top:300px;
+    font-family:'EB Garamond';
+    font-size:140px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight: lighter;
+    margin-bottom: 65px;
+}
+
+.third h3{
+
+    color:black;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:27px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:bold; 
+    line-height: 50px; 
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.third p{
+
+    color:black;
+    position:center;
+    text-align:left;
+    top:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:27px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 50px; 
+    margin-top: 20px;
+ 
+
+
+}
+
+.page p{
+    color:black;
+    position:left;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+.name p{
+    color:black;
+    position:left;
+    text-align:left;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:29px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+.photos p{
+    color:black;
+    position:left;
+    text-align:right;
+    top:100px;
+    font-family:'EB Garamond';
+    font-size:27px; 
+    font-style:normal;
+    font-variant:normal; 
+    font-weight:100; 
+    line-height: 35px; 
+
+}
+
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:flex-start
+  }
+
+
