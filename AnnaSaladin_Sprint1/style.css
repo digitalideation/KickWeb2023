@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "Aria";
+    src: url("https://use.typekit.net/yck0ykp.css");
+}
+
+@font-face {
+    font-family: "Frutiger";
+    src: url(/Projekt/Erste-Abgabe/Font/FrutigerLTStd-Roman.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "Fort" sans-serif;
+    src: url("https://use.typekit.net/btb6tux.css");
+}
+
+/*.Center {
+    
+    text-align: center;
+}*/
+
+/*StarWarsIdentities*/
+
+
+body {
+    background-color: white;
+}
+
+/*title*/
+h1 {
+    font-family: "Aria";
+    font-size: 62px;
+    letter-spacing: 10px;
+    text-decoration-line: overline;
+}
+
+/*untertitle*/
+h2 {
+    font-family: "Fort";
+    font-size: 20px;
+    font-weight: 1;
+    font-style: normal;
+}
+
+/*lauftext*/
+h3 {
+    font-family: "Fort";
+    font-size: 10px;
+    font-weight: 50;
+    font-style: normal;
+    text-align: justify;
+
+}
+
+/*
+h3::first-letter {
+    font-size: 50px;
+  color: black;
+}
+*/
+
+/*zitat*/
+h4 {
+    font-family: "Aria";
+    font-size: 15px;
+    font-weight: 50;
+    text-align: justify;
+}
+
+/*Bildbeschriftung*/
+h5 {
+    font-family: "Frutiger";
+    font-size: 9px;
+    text-align: right;
+}
+
+.BildBeschriftung {
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.Titel {
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.Untertitel {
+    padding-left: 10%;
+
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding-left: 2%;
+    
+}
+
+.column2 {
+    float: left;
+    width: 10%;
+    padding-left: 1%;
+    
+}
+
+.column3 {
+    float: left;
+    width: 7.5%;
+    padding-left: 1%;
+    
+}
+
+.row {
+    padding-left: 8%;
+    
+}
+
+.row2 {
+    padding-top: 25px;
+    padding-left: 15%;
+    
+}
+
+hr.solid {
+    border-top: 3px solid "black";
+}
+
+img {
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+img.head {
+    padding-left: 0;
+    width: 30%;
+    height: auto;
+}
+
+/*HomePage*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: tan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Aria";
+}
+
+li a:hover:not(.active) {
+    background-color: tan;
+    color: black;
+}
+
+.active {
+    background-color: tan;
+    color: black;
+}
+
+.HomeBackground {
+    padding-top: 1270px;
+    background-image: url(/Erste-Abgabe/Bilder/Menü_Background_02.jpg);
+    background-color: black;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: tan;
+  }
+
+/*Greg Hildebrandt*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding-left: 20%;
+    column-gap: 10px;
+
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: left;
+    
+}
+
+
+.circle {
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.circle-inner {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Fort";
+}
+
+.person {
+    width: 100px;
+}
+
+/*NOTIZEN
+
+- Grid versuchen überall anzuwenden. (Star wars identities)
+- alles wenn möglich centrieren.
+- Hintergrund einfach weiss wirkt lehr
+- schriftgrössen anpassen (Lauftext)
+- Titel ob und unten Linie, nicht in der Mitte.
+- Eventuell mit mehreren style sheets arbeiten, übersichtlicher!
+*/
